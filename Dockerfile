@@ -9,4 +9,5 @@ run rosdep init
 run rosdep update
 run echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 run apt-get install -y python-rosinstall
+run apt-get install -y python-pip
 #run source ~/.bashrc
