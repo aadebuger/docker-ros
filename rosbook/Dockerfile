@@ -2,7 +2,7 @@ from ros
 run apt-get update
 #run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash"]
 #run source /opt/ros/kinetic/setup.bash
-run apt-get install -y ros-kinetic-moveit-core
+run apt-get install -y ros-kinetic-moveit
 run apt-get install -y ros-kinetic-gazebo-ros
 run apt-get install -y ros-kinetic-pcl-ros
 run apt-get install -y ros-kinetic-angles
