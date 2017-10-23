@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+
+
+
+ rosbook:
+    image: rosbook.desktop
+
+    ports:
+      - "6080:80"  
+    volumes:
+       - ./codews:/codews
+    tty: true
+
