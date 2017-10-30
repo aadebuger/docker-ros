@@ -5,7 +5,7 @@ services:
 
 
  rosbook:
-    image: moveittutorial
+    image: moveittutorial.desktop
 
     ports:
       - "6081:80"  
