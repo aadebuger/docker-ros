@@ -30,6 +30,6 @@ run mkdir /ros_book_ws/src
 run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash;cd /ros_book_ws/src && catkin_init_workspace"]
 add  moveit_simple_grasps /ros_book_ws/src/moveit_simple_grasps
 #add  effective_robotics_programming_with_ros /ros_book_ws/src/effective_robotics_programming_with_ros
-run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash;cd /ros_book_ws/ && catkin_make"]
+#run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash;cd /ros_book_ws/ && catkin_make"]
 add  effective_robotics_programming_with_ros /ros_book_ws/src/effective_robotics_programming_with_ros
-run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash;cd /ros_book_ws/ && catkin_make"]
+#run ["/bin/bash","-c","source /opt/ros/kinetic/setup.bash;cd /ros_book_ws/ && catkin_make"]
