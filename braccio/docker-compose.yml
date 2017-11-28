@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+
+
+
+ braccio:
+    image: braccio
+
+    ports:
+      - "6082:80"  
+    volumes:
+       - ./codews:/codews
+    tty: true
+
