@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+
+
+
+ arduino:
+    image: arm
+
+    ports:
+      - "6082:80"  
+    volumes:
+       - ./codews:/codews
+    tty: true
+
