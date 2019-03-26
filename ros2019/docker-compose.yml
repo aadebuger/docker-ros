@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+
+
+
+ pr2:
+    image:   ros2019
+
+    ports:
+      - "6083:80"  
+    volumes:
+       - ./codews:/codews
+    tty: true
+
